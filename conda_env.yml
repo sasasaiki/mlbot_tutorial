@@ -1,0 +1,26 @@
+name: mltrade
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - lightgbm
+  - xgboost
+  - jupyterlab
+  - matplotlib
+  - seaborn
+  - geopandas
+  - opencv
+  - numba
+  - mplfinance
+  - pip:
+    - optuna
+    - seaborn-analyzer
+    - ccxt
+    - TA-Lib
+    - "git+https://github.com/richmanbtc/crypto_data_fetcher.git@v0.0.12#egg=crypto_data_fetcher"
+
+prefix: /Users/saiki/miniforge3/envs/mltrade
