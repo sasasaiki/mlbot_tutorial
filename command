@@ -21,5 +21,5 @@ conda deactivate
 // 
 conda remove -n 仮想環境名 --all
 
-// jupyterの起動
+// jupyterの起動 vsコードで動くので別にいらない。python同様左下がcondaの環境になってるか確認。なってなかったら多分vs再起動でいける。
 jupyter lab
